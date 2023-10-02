@@ -22,6 +22,8 @@ body {background-color: black}
 .dropdown-toggle {margin-right: 40px}
 
 .flechausuario {padding-bottom: 22px}
+.navbar-toggler-icon { background-color: #F7CD1C; border-radius: 5px
+}
 
 .input-wrapper {
   display: flex;
@@ -82,6 +84,8 @@ color: white}
   transition: all .5s ease-in-out;
 }
 
+/* Carusel noticias */
+
 #carouselExampleCaptions {
     max-width: 85%;}
 
@@ -89,6 +93,7 @@ color: white}
 
 .carousel-item h5 {font-size: 30px}
 
+/* Titulos caruseles*/
 
 h1 {color:#F7CD1C; 
 	margin-left: 50px; 
@@ -103,29 +108,37 @@ h2 {color:#F7CD1C;
 margin-bottom: -30px}
 
 h3 {color:#F7CD1C; 
-	margin-left: 50px; 
+	margin-left: 45px; 
 	margin-top: 40px; 
 	font-size: 25px;
 }
 
-.col {
-	justify-content: space-between;
-    align-items: center;}
 
-.row{margin-left: 30px}
+/* Titulos caruseles*/
 
-.col p {color: white;
-margin-left: 10px;
-font-size: 17px}
+.container {margin: 0 auto;}
+
+.carousel-item { text-align: center;}
+
+.row {justify-content: center}
+
+.populares:hover  {transform: scale(1.1); transition: transform 0.3 ease}
+ 
+.cartelera img {border-radius: 20px; 
+	box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.4); 
+	margin-top: 10px;}
 
 
 
+/* MEJORES ACTORES*/
 
+ .col p {color: white;
+margin-left: 5px;
+font-size: 17px;
+margin-top: 10px}
 
 .columna1 {display: flex;
-	margin-left: 45px;
-}
-
+	margin-left: 45px;}
 
 .columna1 img {width: 70%;
 	height: auto;
@@ -147,35 +160,40 @@ a {text-decoration: none}
   color:#F7CD1C ; }
 
 
+/* FOOTER*/
+
+footer {background-color:#F7CD1C;}
+
+.site-footer {
+    padding: 10px;
+    text-align: center;margin-top: 30px}
 
 
-footer {
-    background-color:#F7CD1C;
-    color: white;
-    padding: 20px 0;}
+.social-icons {
+    margin-top:10px;}
+.social-icons a {
+    margin: 0 3px; 
+    text-decoration: none;
+    color: black;}
+.social-icons a:hover {color:#7DC0F2}
 
 
-.contenedorft {
-    display: flex;
-    align-items: center;}
+.logoft img {width: 15%; margin-top: 20px}
+
+.copy p {
+    color: #306289; 
+    font-size: 12px; 
+    margin-top: 10px; 
+    text-align: center;}
 
 
-.tww img {width: 40px; margin-left: 30px; margin-right: 4px}
-
-.redesft img { width: 40px; margin-left: 5px;
-
+@media  (max-width: 480px) {
+  .columna1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .columna1 a {
+    width: 10%;
+    margin-bottom: 20px;
+  }
 }
-
-
-.logoft img {width: 230px; 
-	margin-left: 380px; padding: 0px; vertical-align: middle}
-
-
-.iosft img {width: 40px; margin-left: 540px;margin-right: 5px; margin-top: 10px}
-.andft img {width: 40px; margin-top: 10px }
-
-p1 {color: black;  margin-left: 1300px; font-size: 12px; margin-top: -30px}
-
-
-
-
